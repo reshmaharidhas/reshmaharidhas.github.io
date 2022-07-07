@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-147357385-1"></script>
+		<script>
+  			window.dataLayer = window.dataLayer || [];
+  			function gtag(){dataLayer.push(arguments);}
+  			gtag('js', new Date());
+
+  			gtag('config', 'UA-147357385-1');
+		</script>
+        <title>Skills</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Reshma Haridhas" />
+        <meta name="description" content="Projects" />
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <style>
+            body{
+                background-color: rgb(31, 28, 28);
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            #namebarnav{
+                color: #00e676;
+                font-size: 30px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            #namebar{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 28px;
+            }
+            #menucollapse{
+                color: #00e676;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            #mobile-demo{
+                background-color: #00e676;
+                color: black;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                width: 200px;
+            }
+            
+            @media only screen and (max-width: 800px) and (orientation: portrait) {
+                body{
+                    background-color: rgb(31, 28, 28);
+                }
+            }
+            @media only screen and (max-width: 1200px) {
+                #namebarnav{
+                    font-size: 30px;
+                }
+            }
+            @media only screen and (max-width: 800px) {
+                #namebarnav{
+                    font-size: 24px;
+                }
+            }
+            @media only screen and (max-width: 400px) {
+                #namebarnav{
+                    color: #00e676;
+                    font-size: 15px;
+                }
+                #skillstab{
+                    width: 50%;
+                }
+            }        
+        </style>
+    </head> 
+    <body>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <nav>
+            <div class="nav-wrapper black w3-padding">
+                <a class="brand-logo center" id="namebarnav">RESHMA HARIDHAS</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down" id="menucollapse">
+                    <li><a href="index.html" style="color: #00e676;">Home</a></li>
+                    <li><a href="#" style="color: #00e676;">Skills</a></li>
+                    <li><a href="projects.html" style="color: #00e676;">Projects</a></li>
+			<li><a href="codingprofiles.html" style="color: #00e676;">CP</a></li>
+                    <li><a href="contact.html" style="color: #00e676;">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+		<li><a href="codingprofiles.html">CP</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul><br>
+        <center>
+        <div id="skillstab" class="w3-container black w3-padding-large w3-mobile white-text" style="width: 50%;">
+            <h5>Skills</h5><br>
+	    <div class="chip green accent-4 black-text">Java</div>
+	    <div class="chip green accent-4 black-text">Swing</div>
+	    <div class="chip green accent-4 black-text">AWT</div>
+            <div class="chip green accent-4 black-text">Solidity</div>
+            <div class="chip green accent-4 black-text">PHP</div>
+            <div class="chip green accent-4 black-text">HTML5</div>
+            <div class="chip green accent-4 black-text">CSS3</div><br><br>
+            <div class="chip green accent-4 black-text">Smart Contracts</div>
+            <div class="chip green accent-4 black-text">Web3.js</div>
+            <div class="chip green accent-4 black-text">JavaScript</div>
+            <div class="chip green accent-4 black-text">Bootstrap</div>
+            <div class="chip green accent-4 black-text">Ethereum</div><br><br>
+            <div class="chip green accent-4 black-text">DApp Development</div>
+            <div class="chip green accent-4 black-text">MySQL</div>
+            <div class="chip green accent-4 black-text">jQuery</div><br><br>
+	    <div class="chip green accent-4 black-text">Materialize CSS</div>
+            <div class="chip green accent-4 black-text">Blockchain</div>
+            <br><br>
+        </div>        
+        </center>
+        <script src="myscript.js"></script>
+        <!-- Compiled and minified CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+		<!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.sidenav').sidenav();
+    
+                $('.material-icons').css("color","#00e676");
+            })
+        </script>
+        
+        <footer class="w3-container w3-bottom w3-black w3-tiny w3-center">
+			<p>Copyright &copy; 2022 RESHMAHARIDHAS.COM All Rights Reserved</p>
+		</footer>
+    </body>
+</html>
