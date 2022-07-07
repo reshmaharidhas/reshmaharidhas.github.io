@@ -1,0 +1,21 @@
+a{
+    text-decoration: none;
+}
+#namebar i {
+    float: right;
+    display: none;
+}
+.circlediv{
+    width: 250px;
+    height: 250px;
+    background-color: #40a977;
+    border-radius: 50%;
+    float: left;
+}
+body{
+    background-color: black;
+}
+
+
+
+
