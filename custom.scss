@@ -1,0 +1,13 @@
+$dark:#000000;
+$success:rgb(31, 177, 31);
+$greenType2:#00e676;
+$pink:pink;
+$badge-font-size:17px;
+$badge-border-radius:20px;
+$badge-font-weight:500;
+$navbar-dark-color:white;
+$navbar-dark-hover-color:$success;
+$navbar-toggler-focus-width:1px;
+$navbar-dark-active-color: rgb(133, 255, 137);
+$list-group-color:$dark;
+@import "node_modules/bootstrap/scss/bootstrap";
